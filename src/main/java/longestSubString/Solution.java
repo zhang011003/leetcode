@@ -12,6 +12,7 @@ package longestSubString;
 public class Solution {
 	
 	/**
+	 * 递归方式解决。
 	 * 将指定字符串从中间分隔，则最长的字符串或者在指定字符串左侧， 或者在指定字符串右侧，或者部分在左侧，部分在右侧
 	 * 
 	 * @param s
@@ -23,7 +24,8 @@ public class Solution {
 		} else {
 			int mid = s.length() / 2;
 			int lengthLeft = lengthOfLongestSubstring(s.substring(0, mid));
-			StringBuilder sBuilder = new StringBuilder(s.charAt(mid));
+			StringBuilder sBuilder = new StringBuilder();
+			sBuilder.append(s.charAt(mid));
 			for (int i = mid - 1; i >= 0; i--) {
 				if (sBuilder.indexOf(s.charAt(i) + "") < 0) {
 					sBuilder.append(s.charAt(i));
@@ -48,5 +50,30 @@ public class Solution {
 			}
 			return length;
 		}
+	}
+	
+	/**
+	 * 非递归方式解决。
+	 * @param s
+	 * @return
+	 */
+	public int lengthOfLongestSubstring2(String s) {
+		int length = 0;
+		StringBuilder sBuilder = new StringBuilder();
+		for (int i = 0; i < s.length(); i++) {
+			int index = sBuilder.indexOf(s.charAt(i) + "");
+			if (index >= 0) {
+				if (length < sBuilder.length()) {
+					length = sBuilder.length();
+				}
+				//包含有下一个字符时，需要删除从开始位置到下一个字符位置之间的内容
+				sBuilder.delete(0, index + 1);
+			}
+			sBuilder.append(s.charAt(i));
+		}
+		if (length < sBuilder.length()) {
+			length = sBuilder.length();
+		}
+		return length;
 	}
 }
