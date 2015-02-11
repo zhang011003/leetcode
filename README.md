@@ -4,8 +4,8 @@
 1|[Two Sum](https://oj.leetcode.com/problems/two-sum/)|Medium|[Java](https://github.com/zhang011003/leetcode/blob/master/src/main/java/twoSum/Solution.java)
 4|[Median of Two Sorted Arrays](https://oj.leetcode.com/problems/median-of-two-sorted-arrays/)|Hard|Java
 3|[Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/)|Medium|[Java](https://github.com/zhang011003/leetcode/blob/master/src/main/java/longestSubString/Solution.java)
-2|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)|Medium|Java
-5|[Longest Palindromic Substring](https://oj.leetcode.com/problems/longest-palindromic-substring/)|Medium|Java
+2|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)|Medium|[Java](https://github.com/zhang011003/leetcode/blob/master/src/main/java/addTwoNumbers/Solution.java)
+5|[Longest Palindromic Substring](https://oj.leetcode.com/problems/longest-palindromic-substring/)|Medium|[Java](https://github.com/zhang011003/leetcode/blob/master/src/main/java/longestPalindromicSubstring/Solution.java)
 6|[ZigZag Conversion](https://oj.leetcode.com/problems/zigzag-conversion/)|Easy|Java
 7|[Reverse Integer](https://oj.leetcode.com/problems/reverse-integer/)|Easy|Java
 8|[String to Integer (atoi)](https://oj.leetcode.com/problems/string-to-integer-atoi/)|Easy|Java
