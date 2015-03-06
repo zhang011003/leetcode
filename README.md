@@ -12,10 +12,10 @@
 9|[Palindrome Number](https://oj.leetcode.com/problems/palindrome-number/)|Easy|Java
 10|[Regular Expression Matching](https://oj.leetcode.com/problems/regular-expression-matching/)|Hard|[Java](https://github.com/zhang011003/leetcode/blob/master/src/main/java/regularExpressionMatching/Solution.java)
 11|[Container With Most Water](https://oj.leetcode.com/problems/container-with-most-water/)|Medium|Java
-12|[Integer to Roman](https://oj.leetcode.com/problems/integer-to-roman/)|Medium|Java
+12|[Integer to Roman](https://oj.leetcode.com/problems/integer-to-roman/)|Medium|[Java](https://github.com/zhang011003/leetcode/blob/master/src/main/java/integerToRoman/Solution.java)
 13|[Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/)|Easy|Java
 14|[Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/)|Easy|Java
-15|[3Sum](https://oj.leetcode.com/problems/3sum/)|Medium|Java
+15|[3Sum](https://oj.leetcode.com/problems/3sum/)|Medium|[Java](https://github.com/zhang011003/leetcode/blob/master/src/main/java/threeSum/Solution.java)
 16|[3Sum Closest](https://oj.leetcode.com/problems/3sum-closest/)|Medium|Java
 18|[4Sum](https://oj.leetcode.com/problems/4sum/)|Medium|Java
 17|[Letter Combinations of a Phone Number](https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/)|Medium|Java
